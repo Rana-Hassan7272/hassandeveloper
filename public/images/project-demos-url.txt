@@ -1,0 +1,31 @@
+Here is the clean mapping of each project to its corresponding Live Demo link.
+
+* **FinGuard AI — Personal Finance Platform (FYP · Live 🏆 3rd Place, University Final Year Project Competition)**
+
+  * **Live Demo:** [https://drive.google.com/file/d/1IgNAHpZPRxmnMZ4-S_DDHkLz1BHDV-A5/view?usp=sharing](https://drive.google.com/file/d/1IgNAHpZPRxmnMZ4-S_DDHkLz1BHDV-A5/view?usp=sharing)
+
+* **LLM Systems  Inference**
+
+  * **Live Demo :** [https://drive.google.com/file/d/1S48Srfu0g9MRXprIkI2hNIWYpKRwLjdw/view?usp=sharing](https://drive.google.com/file/d/1S48Srfu0g9MRXprIkI2hNIWYpKRwLjdw/view?usp=sharing)
+ 
+	NanoGpt libe dmeo link
+ * **Live Demo :** [https://drive.google.com/file/d/1KC9hG-RKpoWHoZUbYemOgGN5CrU1hAKo/view?usp=sharing](https://drive.google.com/file/d/1KC9hG-RKpoWHoZUbYemOgGN5CrU1hAKo/view?usp=sharing)
+
+* **MLOps Pipeline**
+
+  * **Live Demo:** [https://drive.google.com/file/d/1TRi0rLuKI_xk_9mhtHTsASbMocFF49j-/view?usp=sharing](https://drive.google.com/file/d/1TRi0rLuKI_xk_9mhtHTsASbMocFF49j-/view?usp=sharing)
+
+* **pulmoAI Doctor Assistant**
+
+  * **Live Demo:** [https://drive.google.com/file/d/1nX-wmZMaZQXqKc6Zufvc0Qj4R9-kTwmB/view?usp=sharing](https://drive.google.com/file/d/1nX-wmZMaZQXqKc6Zufvc0Qj4R9-kTwmB/view?usp=sharing)
+Forex Trading Assistant:
+Live demo:https://drive.google.com/file/d/1x5wMHgDHuduFeux_-AvfH0fxohw8akcz/view?usp=sharing
+
+Finance Urdu Rag :
+Lve demo:https://drive.google.com/file/d/190hXPPAVvdzthzlwKYJ5RVxgsMLrhXUV/view?usp=sharing
+
+Social Media Automation:
+Live Demo:https://drive.google.com/file/d/1xBgpoMGPBnnwNNbLPcZ0E2MG9i_UtgTL/view?usp=sharing
+
+AWS Complete Transformation:
+Live demo: https://drive.google.com/file/d/19gokOnMP4eFBOA1xZU7BIAhBwGU6PEZE/view?usp=sharing
