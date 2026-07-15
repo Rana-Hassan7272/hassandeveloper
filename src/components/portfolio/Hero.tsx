@@ -5,7 +5,7 @@ import { AnimatedNumber } from "./AnimatedNumber";
 
 export function Hero() {
   return (
-    <section className="relative isolate min-h-[92vh] overflow-hidden">
+    <section id="home" className="relative isolate min-h-[92vh] overflow-hidden">
       <img
         src={personalInfo.heroImage}
         alt=""

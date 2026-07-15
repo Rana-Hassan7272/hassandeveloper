@@ -26,6 +26,7 @@ export function TrustedBy() {
 
   return (
     <section
+      id="trusted-by"
       aria-label="Worked with and contributed to"
       className="relative border-y border-border/60 bg-surface-1/30 py-10"
     >

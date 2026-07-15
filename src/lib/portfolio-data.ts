@@ -45,7 +45,7 @@ export interface HeroStat {
 
 export const heroStats: HeroStat[] = [
   { value: 30, suffix: "+", label: "Projects Delivered" },
-  { value: 3, suffix: "rd", label: "FYP · University Competition" },
+  { value: 3, suffix: "rd Place", label: "FYP · University Competition" },
   { value: 400, suffix: "+", label: "HF Model Downloads" },
   { value: 0.929, suffix: "", label: "Kaggle Leaderboard Score", decimals: 3 },
 ];

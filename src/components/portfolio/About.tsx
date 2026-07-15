@@ -4,7 +4,7 @@ import { personalInfo } from "@/lib/portfolio-data";
 import { ClickableMedia } from "./MediaPreview";
 
 const MINI_STATS = [
-  { value: "3rd", label: "FYP · University" },
+  { value: "3rd Place", label: "FYP · University" },
   { value: "400+", label: "HF downloads" },
   { value: "2 OSS PRs", label: "vLLM + LiteLLM" },
 ];
@@ -41,7 +41,7 @@ export function About() {
               RAG systems, multi-agent LangGraph pipelines, and full MLOps platforms — the kind
               that survive real users, not just demos. My flagship,{" "}
               <span className="font-medium text-foreground">FinGuard AI</span>, placed{" "}
-              <span className="font-medium text-foreground">3rd in the university FYP competition</span>{" "}
+              <span className="font-medium text-foreground">3rd place in the university FYP competition</span>{" "}
               as Pakistan&apos;s first fully-automated personal finance platform.
             </p>
             <p>
