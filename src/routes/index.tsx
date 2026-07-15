@@ -15,6 +15,7 @@ import { Education } from "@/components/portfolio/Education";
 import { Blog } from "@/components/portfolio/Blog";
 import { Contact } from "@/components/portfolio/Contact";
 import { Footer } from "@/components/portfolio/Footer";
+import { ScrollControls } from "@/components/portfolio/ScrollControls";
 
 export const Route = createFileRoute("/")({
   component: Portfolio,
@@ -70,6 +71,7 @@ function Portfolio() {
         <Contact />
       </main>
       <Footer />
+      <ScrollControls />
     </div>
   );
 }

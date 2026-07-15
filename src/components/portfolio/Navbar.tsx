@@ -2,8 +2,10 @@ import { Link } from "@tanstack/react-router";
 import { Download, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { personalInfo } from "@/lib/portfolio-data";
+import { scrollToTop } from "./ScrollControls";
 
 const NAV_LINKS = [
+  { label: "Home", href: "#top", isHome: true },
   { label: "About", href: "#about" },
   { label: "Skills", href: "#skills" },
   { label: "Projects", href: "#projects" },
@@ -11,6 +13,18 @@ const NAV_LINKS = [
   { label: "Achievements", href: "#achievements" },
   { label: "Contact", href: "#contact" },
 ];
+
+function handleNavClick(
+  e: React.MouseEvent<HTMLAnchorElement>,
+  link: (typeof NAV_LINKS)[number],
+  onDone?: () => void,
+) {
+  if (link.isHome) {
+    e.preventDefault();
+    scrollToTop();
+    onDone?.();
+  }
+}
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -25,6 +39,7 @@ export function Navbar() {
 
   return (
     <header
+      id="top"
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
           ? "border-b border-border/60 bg-background/70 backdrop-blur-xl"
@@ -34,6 +49,10 @@ export function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link
           to="/"
+          onClick={(e) => {
+            e.preventDefault();
+            scrollToTop();
+          }}
           className="mono text-sm font-medium tracking-tight text-foreground hover:text-accent-glow transition-colors"
         >
           Hassan<span className="text-primary">.</span>
@@ -44,6 +63,7 @@ export function Navbar() {
             <a
               key={l.href}
               href={l.href}
+              onClick={(e) => handleNavClick(e, l)}
               className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {l.label}
@@ -80,7 +100,7 @@ export function Navbar() {
               <a
                 key={l.href}
                 href={l.href}
-                onClick={() => setOpen(false)}
+                onClick={(e) => handleNavClick(e, l, () => setOpen(false))}
                 className="rounded-md px-3 py-2.5 text-sm text-muted-foreground hover:bg-surface-1 hover:text-foreground"
               >
                 {l.label}
