@@ -37,41 +37,29 @@ export function About() {
         <div className="md:col-span-3">
           <div className="space-y-5 text-[15px] leading-relaxed text-muted-foreground md:text-base">
             <p>
-              I&apos;m a production-focused AI engineer from Pakistan. I ship production-ready
-              RAG systems, multi-agent LangGraph pipelines, and full MLOps platforms — the kind
-              that survive real users, not just demos. My flagship,{" "}
-              <span className="font-medium text-foreground">FinGuard AI</span>, placed{" "}
-              <span className="font-medium text-foreground">3rd place in the university FYP competition</span>{" "}
-              as Pakistan&apos;s first fully-automated personal finance platform.
+              I&apos;m an AI engineer from Pakistan focused on building production-ready LLM
+              applications. My work spans RAG systems, multi-agent LangGraph workflows, and MLOps
+              pipelines designed for reliable deployment beyond proof-of-concept demos.
             </p>
             <p>
-              I also build full-stack websites with MERN and Next.js — production sites that are
-              fast, SEO-optimized, and scaled for real traffic. For non-technical clients, I design
-              workflow automation that turns manual, repetitive work into reliable systems and saves
-              hours every week.
+              My flagship project,{" "}
+              <span className="font-medium text-foreground">FinGuard AI</span>, earned 3rd place
+              in my university&apos;s Final Year Project competition. It is an AI-powered personal
+              finance platform built for Pakistani users, combining transaction intelligence,
+              forecasting, fraud detection, and an AI financial assistant.
             </p>
             <p>
-              I care about the stack end-to-end: from BPE tokenizers, KV-caches, and LoRA adapters
-              up through FastAPI + Celery workers, Kubernetes rollouts, and Prometheus drift alerts.
-              I contribute upstream to{" "}
-              <a
-                href="https://github.com/vllm-project/vllm/pull/42557"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent-glow underline-offset-4 hover:underline"
-              >
-                vLLM
-              </a>{" "}
-              and{" "}
-              <a
-                href="https://github.com/BerriAI/litellm/pull/27998"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent-glow underline-offset-4 hover:underline"
-              >
-                LiteLLM
-              </a>{" "}
-              because open source is where I learned what production actually means.
+              Beyond AI, I build full-stack web applications with MERN and Next.js, creating fast,
+              SEO-friendly applications with modern deployment practices. I also design workflow
+              automation that helps businesses eliminate repetitive manual work and improve
+              operational efficiency.
+            </p>
+            <p>
+              I enjoy working across the AI stack—from tokenization, embeddings, and
+              parameter-efficient fine-tuning to FastAPI services, Celery workers, containerized
+              deployments, Kubernetes, monitoring, and evaluation. I&apos;m also an active
+              contributor to open-source AI infrastructure projects, where I continue learning from
+              production-grade systems.
             </p>
           </div>
 
