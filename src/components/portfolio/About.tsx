@@ -4,12 +4,8 @@ import { personalInfo } from "@/lib/portfolio-data";
 import { ClickableMedia } from "./MediaPreview";
 
 const MINI_STATS = [
-  {
-    value: "3rd Place",
-    label: "FYP · University",
-    image: "/images/acheivements/3rdplacefyp.jpeg",
-  },
-  { value: "400+", label: "HF downloads" },
+  { value: "3rd Place", label: "FYP · University" },
+  { value: "30+", label: "AI consultant · global clients" },
   { value: "2 OSS PRs", label: "vLLM + LiteLLM" },
 ];
 
@@ -69,23 +65,11 @@ export function About() {
 
           <div className="mt-10 grid grid-cols-3 gap-3">
             {MINI_STATS.map((s) => (
-              <div key={s.label} className="card-elevated overflow-hidden">
-                {"image" in s && s.image && (
-                  <ClickableMedia
-                    src={s.image}
-                    alt="FYP 3rd Place"
-                    containerClassName="min-h-[88px] bg-surface-2"
-                    mediaClassName="max-h-[100px] object-contain object-top p-1"
-                  />
-                )}
-                <div className="p-4">
-                  <div className="mono text-lg font-semibold text-foreground md:text-xl">
-                    {s.value}
-                  </div>
-                  <div className="mt-1 text-[11px] text-muted-foreground md:text-xs">
-                    {s.label}
-                  </div>
+              <div key={s.label} className="card-elevated p-4">
+                <div className="mono text-lg font-semibold text-foreground md:text-xl">
+                  {s.value}
                 </div>
+                <div className="mt-1 text-[11px] text-muted-foreground md:text-xs">{s.label}</div>
               </div>
             ))}
           </div>
