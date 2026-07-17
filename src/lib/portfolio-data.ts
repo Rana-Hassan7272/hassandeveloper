@@ -349,7 +349,7 @@ export const experience = [
     bullets: [
       "30+ delivered projects across MERN, ML/DL, chatbots, AI-integrated websites, automation, and DevOps. 5/5 rating, 10/10 success score.",
       "Shipped production sites: gulfteachers.com, kayicom.com, escortedmoroccotours.com — scalable, SEO-optimized, performance-tuned.",
-      "Built workflow automation for non-technical clients — turning manual, repetitive tasks into reliable systems that save hours every week.",
+      "Built workflow automation turning manual, repetitive tasks into reliable systems that save hours every week.",
       "Contributed 4 months as full-stack developer on staging.trainingx.ai: infrastructure improvements, critical bug fixes, AI feature integration.",
     ],
   },
