@@ -5,7 +5,7 @@ import { ClickableMedia } from "./MediaPreview";
 
 const MINI_STATS = [
   { value: "3rd Place", label: "FYP · University" },
-  { value: "30+", label: "AI consultant · global clients" },
+  { value: "30+ AI Solutions", label: "Built for global clients" },
   { value: "2 OSS PRs", label: "vLLM + LiteLLM" },
 ];
 
