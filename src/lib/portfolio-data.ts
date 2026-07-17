@@ -408,6 +408,15 @@ export const achievements = [
     image: "/images/acheivements/nsct-result.jpg",
   },
   {
+    title: "FYP Competition",
+    value: 3,
+    suffix: "rd Place",
+    subtitle: "University Final Year Project · FinGuard AI",
+    detail: "3rd place among competing final-year projects",
+    url: "https://github.com/Rana-Hassan7272/Pakistan-First-Automated-Personal-Finance-Platfrom",
+    image: "/images/acheivements/3rdplacefyp.jpeg",
+  },
+  {
     title: "BirdCLEF+ 2026",
     value: 0.929,
     suffix: " LB Score",
